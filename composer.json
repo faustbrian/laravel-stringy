@@ -1,25 +1,17 @@
 {
     "name": "faustbrian/laravel-stringy",
     "description": "Parsedown Wrapper for Laravel 5",
-    "keywords": [
-        "laravel",
-        "framework",
-        "Laravel-sweet-flash",
-        "Laravel Sweet Flash",
-        "Brian Faust",
-        "faustbrian"
-    ],
+    "keywords": ["laravel", "framework", "Laravel-stringy", "Laravel Stringy", "Brian Faust", "faustbrian"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
         "email": "hello@brianfaust.de",
-        "homepage": "https://brianfaust.de",
-        "role": "Developer"
+        "homepage": "https://brianfaust.de"
     }],
     "require": {
-        "php": "^5.6.4 || ^7.0",
+        "php": "^7.0",
         "illuminate/support": "5.1.*|5.2.*",
-        "illuminate/session": "5.2.* || 5.3.*"
+        "illuminate/session": "5.3.*"
     },
     "require-dev": {
         "graham-campbell/testbench": "^3.2",
