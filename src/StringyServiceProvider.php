@@ -5,7 +5,7 @@ namespace BrianFaust\Stringy;
 use Illuminate\Support\ServiceProvider as IlluminateProvider;
 use Stringy\StaticStringy;
 
-class ServiceProvider extends IlluminateProvider
+class StringyServiceProvider extends IlluminateProvider
 {
     public function register()
     {
