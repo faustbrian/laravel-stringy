@@ -10,8 +10,8 @@
     }],
     "require": {
         "php": "^7.0",
-        "illuminate/support": "5.1.*|5.2.*",
-        "illuminate/session": "5.3.*"
+        "danielstjules/stringy": "~2.3",
+        "illuminate/support": "5.1.*|5.2.*"
     },
     "require-dev": {
         "graham-campbell/testbench": "^3.2",
