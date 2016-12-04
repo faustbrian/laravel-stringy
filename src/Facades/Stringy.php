@@ -26,7 +26,7 @@ use Illuminate\Support\Facades\Facade;
 
 class Stringy extends Facade
 {
-    protected static function getFacadeAccessor()
+    protected static function getFacadeAccessor(): string
     {
         return 'stringy';
     }
