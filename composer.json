@@ -10,8 +10,8 @@
     }],
     "require": {
         "php": "^7.1",
-        "illuminate/support": "5.1.*|5.2.*",
-        "illuminate/session": "5.3.* || 5.4.*"
+        "illuminate/support": "^5.1",
+        "illuminate/session": "^5.1"
     },
     "require-dev": {
         "graham-campbell/testbench": "^3.2",
