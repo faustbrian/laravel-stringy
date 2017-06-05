@@ -1,8 +1,5 @@
 <?php
 
-
-declare(strict_types=1);
-
 /*
  * This file is part of Laravel Stringy.
  *
@@ -19,7 +16,7 @@ use Stringy\StaticStringy;
 
 class StringyServiceProvider extends IlluminateProvider
 {
-    public function register(): void
+    public function register()
     {
         $this->app->singleton('stringy', function ($app) {
             return new StaticStringy();
