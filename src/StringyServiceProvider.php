@@ -16,6 +16,9 @@ use Stringy\StaticStringy;
 
 class StringyServiceProvider extends IlluminateProvider
 {
+    /**
+     * Register any application services.
+     */
     public function register()
     {
         $this->app->singleton('stringy', function ($app) {
