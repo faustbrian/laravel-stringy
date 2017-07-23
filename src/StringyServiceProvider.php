@@ -11,8 +11,8 @@
 
 namespace BrianFaust\Stringy;
 
-use Illuminate\Support\ServiceProvider as IlluminateProvider;
 use Stringy\StaticStringy;
+use Illuminate\Support\ServiceProvider as IlluminateProvider;
 
 class StringyServiceProvider extends IlluminateProvider
 {
