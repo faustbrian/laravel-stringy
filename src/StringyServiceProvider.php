@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace BrianFaust\Stringy;
 
-use Stringy\StaticStringy;
 use Illuminate\Support\ServiceProvider as IlluminateProvider;
+use Stringy\StaticStringy;
 
 class StringyServiceProvider extends IlluminateProvider
 {
