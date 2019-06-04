@@ -1,12 +1,12 @@
 {
-    "name": "faustbrian/laravel-stringy",
+    "name": "artisanry/stringy",
     "description": "Parsedown Wrapper for Laravel 5",
-    "keywords": ["laravel", "framework", "Laravel-stringy", "Laravel Stringy", "Brian Faust", "faustbrian"],
+    "keywords": ["laravel", "framework", "Laravel-stringy", "Laravel Stringy"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
-        "email": "hello@brianfaust.me",
-        "homepage": "https://brianfaust.me"
+        "email": "hello@basecode.sh",
+        "homepage": "https://basecode.sh"
     }],
     "require": {
         "php": "^7.1",
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\Stringy\\": "src/"
+            "Artisanry\\Stringy\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\Stringy\\": "tests"
+            "Artisanry\\Tests\\Stringy\\": "tests"
         }
     },
     "config": {
@@ -38,10 +38,10 @@
         },
         "laravel": {
             "providers": [
-                "BrianFaust\\Stringy\\StringyServiceProvider"
+                "Artisanry\\Stringy\\StringyServiceProvider"
             ],
             "aliases": {
-                "Stringy": "BrianFaust\\Stringy\\Facades\\Stringy"
+                "Stringy": "Artisanry\\Stringy\\Facades\\Stringy"
             }
         }
     },
